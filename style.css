@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "cute font";
+    src: url(CuteFont-Regular.otf);
+}
+
+body{
+    background-color:pink;
+    min-height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: "cute font";
+    font-size: 70px;
+    text-shadow: -1px 2px 4px black;
+
+}
+
+button{
+    text-align: center;
+    background-color: pink;
+    color: white;
+    border-radius: 7px;
+    font-family: "cute font";
+    font-size: 30px;
+    width: 100px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: -1px 3px 4px grey;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 145px;
+}
+.border{
+    padding: 50px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 32px;
+    }
+
+    button{
+        font-size: 22px;
+        width: 60px;
+        height: 30px;
+        border-radius: 7px;
+    }
+}
