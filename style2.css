@@ -5,7 +5,7 @@
 
 body{
     background-color: pink;
-    min-height: 100vh;
+    min-height: 150vh;
 }
 
 h1{
@@ -13,7 +13,7 @@ h1{
     color: white;
     font-family: "cute font";
     font-size: 60px;
-    font-weight: normal;
+    font-weight: bold;
     text-shadow: -1px 2px 4px black;
 }
 .contain{
@@ -76,7 +76,7 @@ button{
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     h1{
         font-size: 100px;
     }
@@ -91,8 +91,6 @@ button{
         border-radius: 7px;
     }
 
-    .move{
-        transform: translateY(500px);
-    }
+
 
 }

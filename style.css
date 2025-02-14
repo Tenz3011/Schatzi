@@ -13,7 +13,7 @@ h1{
     color: white;
     font-family: "cute font";
     font-size: 80px;
-    font-weight: normal;
+    font-weight: bold;
     text-shadow: -1px 2px 4px black;
 }
 
@@ -51,7 +51,7 @@ button{
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
     h1{
         font-size: 150px;
     }
@@ -63,8 +63,6 @@ button{
         border-radius: 7px;
     }
 
-    .move{
-        transform: translateY(500px);
-    }
+    
 
 }
