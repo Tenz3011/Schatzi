@@ -53,13 +53,13 @@ button{
 }
 @media screen and (max-width: 767px) {
     h1{
-        font-size: 85px;
+        font-size: 150px;
     }
 
     button{
-        font-size: 60px;
-        width: 135px;
-        height: 75px;
+        font-size: 100px;
+        width: 175px;
+        height: 95px;
         border-radius: 7px;
     }
 
