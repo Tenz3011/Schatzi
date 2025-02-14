@@ -32,7 +32,7 @@ button{
 }
 
 .move{
-    transform: translateY(250px);
+    transform: translateY(300px);
 }
 
 .contain{
@@ -51,7 +51,7 @@ button{
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width: 767px) {
     h1{
         font-size: 80px;
     }
@@ -62,7 +62,7 @@ button{
         height: 45px;
         border-radius: 7px;
     }
-    .move{
-        transform: translateY(500px);
-    }
+
+
+
 }

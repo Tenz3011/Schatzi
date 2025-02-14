@@ -39,6 +39,9 @@ button{
     padding: 50px;
 }
 
+.move{
+    transform: translateY(300px);
+}
 
 .bg{
     padding: 50px;
@@ -72,7 +75,7 @@ button{
     box-sizing: border-box;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 767px) {
     h1{
         font-size: 45px;
     }
@@ -85,8 +88,5 @@ button{
         width: 90px;
         height: 45px;
         border-radius: 7px;
-    }
-    .move{
-        transform: translateY(500px);
     }
 }
