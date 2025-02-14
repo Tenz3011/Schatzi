@@ -12,7 +12,7 @@ h1{
     text-align: center;
     color: white;
     font-family: "cute font";
-    font-size: 100px;
+    font-size: 80px;
     font-weight: normal;
     text-shadow: -1px 2px 4px black;
 }
@@ -23,9 +23,9 @@ button{
     color: rgb(244, 157, 171);
     border-radius: 7px;
     font-family: "cute font";
-    font-size: 30px;
-    width: 100px;
-    height: 45px;
+    font-size: 45px;
+    width: 130px;
+    height: 55px;
     margin-bottom: 10px;
     margin-top: 10px;
     box-shadow: -1px 3px 4px grey;
@@ -53,16 +53,19 @@ button{
 }
 @media screen and (max-width: 600px) {
     h1{
-        font-size: 150px;
+        font-size: 110px;
     }
 
     button{
-        font-size: 100px;
-        width: 175px;
-        height: 95px;
+        font-size: 70px;
+        width: 145px;
+        height: 70px;
         border-radius: 7px;
     }
 
+    .move{
+        transform: translateY(500px);
+    }
     
 
 }
