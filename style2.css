@@ -13,6 +13,7 @@ h1{
     color: white;
     font-family: "cute font";
     font-size: 60px;
+    font-weight: normal;
 }
 .contain{
     display: flex;
@@ -70,10 +71,12 @@ button{
     padding: 0;
     box-sizing: border-box;
 }
+
 @media screen and (max-width:600px) {
     h1{
         font-size: 45px;
     }
+
     .gif{
         height: 150px;
     }
@@ -85,12 +88,5 @@ button{
     }
     .move{
         transform: translateY(500px);
-    }
-    .center {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 }
