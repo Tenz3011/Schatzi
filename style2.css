@@ -7,14 +7,9 @@ body{
     background-color: pink;
     min-height: 100vh;
 }
-.center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 h1{
+    text-align: center;
     color: white;
     font-family: "cute font";
     font-size: 60px;
@@ -42,6 +37,8 @@ button{
 .border{
     padding: 50px;
 }
+
+
 .bg{
     padding: 50px;
     background-image: url("bg.gif");
@@ -49,17 +46,21 @@ button{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    min-height: 100vh;
+    min-height: 200vh;
 }
 
 .gif{
     text-align: center;
     transform: translateY(100px);
 }
-
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .foto img{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
-    transform: scale(2) translateY(100px);
+    transform: scale(3) translateY(200px);
     border:5px solid white;
     border-radius:7px;
 }
@@ -81,5 +82,15 @@ button{
         width: 90px;
         height: 45px;
         border-radius: 7px;
+    }
+    .move{
+        transform: translateY(500px);
+    }
+    .center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }

@@ -6,16 +6,13 @@
 body{
     background-color:pink;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 h1{
+    text-align: center;
     color: white;
     font-family: "cute font";
-    font-size: 70px;
+    font-size: 80px;
     text-shadow: -1px 2px 4px black;
 }
 
@@ -31,6 +28,10 @@ button{
     margin-bottom: 10px;
     margin-top: 10px;
     box-shadow: -1px 3px 4px grey;
+}
+
+.move{
+    transform: translateY(250px);
 }
 
 .contain{
@@ -51,7 +52,7 @@ button{
 }
 @media screen and (max-width:600px) {
     h1{
-        font-size: 50px;
+        font-size: 80px;
     }
 
     button{
@@ -59,5 +60,8 @@ button{
         width: 90px;
         height: 45px;
         border-radius: 7px;
+    }
+    .move{
+        transform: translateY(500px);
     }
 }
