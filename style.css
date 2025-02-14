@@ -21,8 +21,8 @@ h1{
 
 button{
     text-align: center;
-    background-color: pink;
-    color: white;
+    background-color: rgb(244, 211, 211);
+    color: rgb(240, 33, 67);
     border-radius: 7px;
     font-family: "cute font";
     font-size: 30px;
@@ -55,9 +55,9 @@ button{
     }
 
     button{
-        font-size: 22px;
-        width: 60px;
-        height: 30px;
+        font-size: 30px;
+        width: 90px;
+        height: 45px;
         border-radius: 7px;
     }
 }
